@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+/*header*/
+header {
+    width: 1000px; /*横の長さ*/
+    margin: 0 ; /*隙間をなくす*/
+    background-color: #ffcccc; /*headerの背景色*/
+}
+
+
+/*wrapper*/
+#wrapper {
+    width: 1000px; /*横の長さ*/
+        margin: 0 ; /*隙間をなくす*/
+    display: flex; /*横に並べる*/
+}
+
+#main {
+    width: 700px; /*横の長さ*/
+    background-color: #ccffcc; /*mainの背景色*/
+}
+
+#menu {
+    width: 300px; /*横の長さ*/
+    background-color: #ccccff; /*menuの背景色*/
+}
+
+
+/*footer*/
+footer {
+    width: 1000px; /*横の長さ*/
+    margin: 0 ; /*隙間をなくす*/
+    background-color: #ffccff; /*footerの背景色*/
+}
